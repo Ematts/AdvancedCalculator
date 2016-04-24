@@ -10,6 +10,20 @@ namespace AdvancedCalculator
     {
         static void Main(string[] args)
         {
+            Calculator calc = new Calculator();
+            calc.doOperation();
+           
+
+            Console.ReadKey();
         }
+
     }
 }
+//Build an advanced calculator:
+//    a.Take in one input that has at least two numbers and an operator
+//   b.Calculate Addition, Subtraction, Multiplication, Division, Exponential
+//   c. Display the result
+//   d. Implement three design patterns
+
+//   e.For an extra challenge, implement compound expressions, advanced operations (beyond the simple arithmetic binary operators), and dependency injection.
+//  f.Use SOLID principles.
