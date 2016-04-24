@@ -18,7 +18,7 @@ namespace AdvancedCalculator
 
         public double doOperation()
         {
-            ui.getFactors();
+            ui.getNumbersAndOperator();
             if (ui.operation == "+")
             {
 

@@ -66,7 +66,7 @@ namespace AdvancedCalculator
 
         }
 
-        public void getFactors()
+        public void getNumbersAndOperator()
         {
 
             getFirstNumber();
